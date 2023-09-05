@@ -1,0 +1,53 @@
+.banner-container{
+    height: 500px;
+    background: url('./assets/banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 75%;
+
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;    
+    
+
+    .banner-info{
+        background: $white;
+        position: absolute;
+        bottom: 0;
+         
+        display: flex;
+        flex-direction: column;
+
+        padding: 1rem 4rem;
+
+        &__link{
+            text-decoration: none;
+            color: gray;
+            font-size: 1rem;
+            font-weight: 700;
+            text-align: center;
+            transition: background 0.3s ease-in-out;
+
+            &:hover{
+                background: $secondary-color;
+                color: $white;
+            }
+        }
+
+        &__title{
+            font-size: 2rem;
+            font-weight: 700;
+            color: $secondary-color;
+            text-align: center;
+        }
+
+        &__date{
+            font-size: 1rem;
+            font-weight: 700;
+            color: gray;
+            text-align: center;
+        }
+    }
+}

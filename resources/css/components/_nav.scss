@@ -1,0 +1,17 @@
+.nav-container{
+    display: flex;
+    width: min-content;
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+
+    &__link{
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $black;
+
+        &--active{
+            color: $secondary-color;
+        }
+
+    }
+}

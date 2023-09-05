@@ -1,0 +1,15 @@
+.header{
+    display: column;
+    padding: 0.5rem 1rem;
+
+    &__up{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__down{
+    display: flex;
+    justify-content: center;
+
+    }
+}
